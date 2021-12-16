@@ -1,3 +1,3 @@
-import { test } from './kata/snail.js';
+import { test } from './kata/weightForWeight.js';
 
 test();
