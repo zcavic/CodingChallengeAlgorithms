@@ -1,3 +1,1 @@
-import { test } from './kata/weightForWeight.js';
-
-test();
+import { } from './kata/basicMath.js';
