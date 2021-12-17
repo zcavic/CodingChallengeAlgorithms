@@ -1,1 +1,1 @@
-import { } from './kata/basicMath.js';
+import { } from './kata/probabilitiesForSumsInRollingCubicDice.js';
