@@ -1,1 +1,1 @@
-import { } from './kata/probabilitiesForSumsInRollingCubicDice.js';
+import { } from './kata/NextBiggerNumberWithSameDigits.js';
