@@ -1,1 +1,1 @@
-import { } from './kata/NextBiggerNumberWithSameDigits.js';
+import { } from './crackingTheCodingInterview/arraysAndStrings/palindromePermutation.js';
