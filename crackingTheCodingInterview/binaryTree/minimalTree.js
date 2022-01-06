@@ -20,7 +20,7 @@ function buildMinimalTree(arr, start, end) {
   if (start > end) return null;
 
   const iRoot = Math.floor((start + end) / 2);
-  
+
   const node = new Node(arr[iRoot]);
   node.left = buildMinimalTree(arr, start, iRoot - 1)
   node.right = buildMinimalTree(arr, iRoot + 1, end)
@@ -28,5 +28,6 @@ function buildMinimalTree(arr, start, end) {
   return node;
 }
 
-const test = buildTree([1, 2, 3, 4, 5, 6, 7, 8, 9]);
-console.log(test);
+const bst = buildTree([1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+export { bst };
